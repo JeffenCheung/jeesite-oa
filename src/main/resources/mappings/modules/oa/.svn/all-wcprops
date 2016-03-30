@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/%E4%BA%A7%E5%93%81/!svn/ver/2183/jeesite/trunk/jeesite-oa/src/main/resources/mappings/modules/oa
+END
+OaNotifyDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/%E4%BA%A7%E5%93%81/!svn/ver/2183/jeesite/trunk/jeesite-oa/src/main/resources/mappings/modules/oa/OaNotifyDao.xml
+END
+TestAuditDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/%E4%BA%A7%E5%93%81/!svn/ver/2183/jeesite/trunk/jeesite-oa/src/main/resources/mappings/modules/oa/TestAuditDao.xml
+END
+LeaveDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/%E4%BA%A7%E5%93%81/!svn/ver/2183/jeesite/trunk/jeesite-oa/src/main/resources/mappings/modules/oa/LeaveDao.xml
+END
+OaNotifyRecordDao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/%E4%BA%A7%E5%93%81/!svn/ver/2183/jeesite/trunk/jeesite-oa/src/main/resources/mappings/modules/oa/OaNotifyRecordDao.xml
+END
