@@ -8,6 +8,7 @@
 	<script src="${ctxStatic}/markdown/markdown.js" type="text/javascript"></script>
 	<script src="${ctxStatic}/markdown/markdown-editor.js" type="text/javascript"></script>
 	<script src="${ctxStatic}/markdown/markdown-editor.zh.js" type="text/javascript"></script>
+	<script src="${ctxStatic}/bootstrap/table-fixed-header-master/bottom-sticker.min.js"></script>
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -29,6 +30,7 @@
 			});
 			
 			$('#content').markdown();
+			$("#bottom-sticker").bottomSticker();
 		});
 	</script>
 </head>
@@ -131,7 +133,7 @@
 				</div>
 			</div>
 		</c:if>
-		<div class="form-actions">
+		<div class="form-actions" id="bottom-sticker">
 			<c:if test="${oaNotify.status ne '1'}">
 				<shiro:hasPermission name="oa:oaNotify:edit"><input id="btnSubmit" class="btn btn-primary" type="submit" value="保 存"/>&nbsp;</shiro:hasPermission>
 			</c:if>

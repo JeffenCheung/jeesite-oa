@@ -4,6 +4,7 @@
 <head>
 	<title>请假管理</title>
 	<meta name="decorator" content="default"/>
+	<script src="${ctxStatic}/bootstrap/table-fixed-header-master/bottom-sticker.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#name").focus();
@@ -22,6 +23,7 @@
 					}
 				}
 			});
+			$("#bottom-sticker").bottomSticker();
 		});
 	</script>
 </head>
@@ -62,7 +64,7 @@
 				<form:textarea path="reason" class="required" rows="5" maxlength="20"/>
 			</div>
 		</div>
-		<div class="form-actions">
+		<div class="form-actions" id="bottom-sticker">
 			<shiro:hasPermission name="oa:leave:edit"><input id="btnSubmit" class="btn btn-primary" type="submit" value="保 存"/>&nbsp;</shiro:hasPermission>
 			<input id="btnCancel" class="btn" type="button" value="返 回" onclick="history.go(-1)"/>
 		</div>

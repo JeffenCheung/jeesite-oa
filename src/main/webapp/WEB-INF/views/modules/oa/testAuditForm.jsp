@@ -4,6 +4,7 @@
 <head>
 	<title>审批管理</title>
 	<meta name="decorator" content="default"/>
+	<script src="${ctxStatic}/bootstrap/table-fixed-header-master/bottom-sticker.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#name").focus();
@@ -22,6 +23,7 @@
 					}
 				}
 			});
+			$("#bottom-sticker").bottomSticker();
 		});
 	</script>
 </head>
@@ -107,7 +109,7 @@
 				</tr>
 			</table>
 		</fieldset>
-		<div class="form-actions">
+		<div class="form-actions" id="bottom-sticker">
 			<shiro:hasPermission name="oa:testAudit:edit">
 				<input id="btnSubmit" class="btn btn-primary" type="submit" value="提交申请" onclick="$('#flag').val('yes')"/>&nbsp;
 				<c:if test="${not empty testAudit.id}">

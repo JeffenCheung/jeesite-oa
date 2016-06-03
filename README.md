@@ -1,4 +1,4 @@
-# Pactera JeeSite 企业信息化快速开发平台 V1.2.10
+# Pactera JeeSite 企业信息化快速开发平台 V1.2.11-SNAPSHOT
 
 ## BPM流程引擎功能模块
 在线办公功能模块，web page资源。
